@@ -918,9 +918,12 @@ img.aligncenter {
 }
 /* ---------------- Logo ---------------- */
 #logo-container {
-  float: left;
-  margin: 0 3.06%;
+  left: 0;
   margin-left: 0;
+  float: left;
+  /*margin: 0 3.06%;*/
+
+  
 }
 #logo-container a {
   width: 133px;
@@ -944,7 +947,8 @@ img.aligncenter {
 /* ---------------- Content ---------------- */
 .section-boxed {
   max-width: 1032px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin: 0;
   padding: 0 3%;
   position: relative;
 }
