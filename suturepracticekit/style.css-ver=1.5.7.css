@@ -954,6 +954,8 @@ img.aligncenter {
 }
 #content-container .section-boxed {
   margin: 90px auto;
+  margin-top: 30px !important;
+  margin-bottom: 30px;
 }
 .content-boxed {
   max-width: 1032px;
@@ -1038,7 +1040,8 @@ img.aligncenter {
 }
 /* 3 columns */
 .cols-3 .col {
-  width: 31.2%;
+  /*width: 31.2%;*/
+  width: 30%;
 }
 /* 2 columns */
 .cols-2 .col {
